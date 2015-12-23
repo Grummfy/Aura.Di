@@ -20,6 +20,9 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "require-dev": {
+		"atoum/atoum": "dev-atoum-phpunit"
+	},
     "autoload": {
         "psr-4": {
             "Aura\\Di\\": "src/"
@@ -34,5 +37,11 @@
         "psr-4": {
             "Aura\\Di\\": "tests/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Grummfy/atoum.git"
+        }
+    ]
 }
