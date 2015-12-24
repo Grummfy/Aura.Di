@@ -10,7 +10,7 @@ before_script:
   - composer self-update
   - composer install
 script:
-  - vendor/bin/atoum +verbose
+  - vendor/bin/atoum +verbose -d tests
 #  - phpunit --coverage-clover=coverage.clover
 #after_script:
 #  - wget https://scrutinizer-ci.com/ocular.phar
