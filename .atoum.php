@@ -10,3 +10,6 @@ require $autoloader;
 
 // php unit bridge
 require_once __DIR__ . '/vendor/atoum/atoum/scripts/phpunit.php';
+
+
+// $runner->setTestNamespace('#(?:^|\\)test?\\#i');

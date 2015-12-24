@@ -7,7 +7,7 @@ class InstanceFactoryTest extends \PHPUnit_Framework_TestCase
 
     protected $config;
 
-    protected function setUp()
+    public function setUp()
     {
         parent::setUp();
         $this->factory = new Factory;

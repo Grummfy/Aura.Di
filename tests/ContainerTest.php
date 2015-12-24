@@ -6,14 +6,14 @@ class ContainerTest extends \PHPUnit_Framework_TestCase
     protected $container;
     protected $factory;
 
-    protected function setUp()
+    public function setUp()
     {
         parent::setUp();
         $this->factory = new Factory;
         $this->container = new Container($this->factory);
     }
 
-    protected function tearDown()
+    public function tearDown()
     {
         parent::tearDown();
     }

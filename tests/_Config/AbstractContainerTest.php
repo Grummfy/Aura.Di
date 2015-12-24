@@ -36,7 +36,7 @@ abstract class AbstractContainerTest extends \PHPUnit_Framework_TestCase
      * @return null
      *
      */
-    protected function setUp()
+    public function setUp()
     {
         $builder = new ContainerBuilder;
         $this->di = $builder->newInstance(
